@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Desafio2 - feito em javascript</title>
+  <script type="text/javascript" src="script.js"></script>
+  <style>
+    body {
+      background-color: #ccc;
+      /*background-image: url("https://www.modalmais.com.br/wp-content/uploads/2020/04/fibonnacci.jpg");*/
+    }
+
+    body h3 {
+      font-size: 35px;
+      margin-left: 25px;
+    }
+
+    body h5 {
+      font-size: 18px;
+      margin-left: 205px;
+    }
+
+    .main {
+      margin-left: 350px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    div {
+      margin-top: 100px;
+      font-size: 22px;
+      margin-left: 520px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    div input {
+      width: 250px;
+      height: 25px;
+      margin-left: 150px;
+      border-radius: 8px;
+    }
+
+    div button {
+      width: 255px;
+      height: 35px;
+      background-color: rgb(67, 67, 235);
+      color: #FFF;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-left: 150px;
+      border: none;
+    }
+
+    div button:hover {
+      background-color: rgb(114, 114, 232);
+      border: none;
+    }
+
+    .resposta {
+      color: rgb(68, 49, 211);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <h3>Quantos termos você quer somar? </h3>
+    <h5>Tabela Fibonacci</h5>
+    <input id="numero" type="number"> <br /><br />
+    <button onclick="fibonacci()">Somar</button><br />
+  </div>
+  <div id='resposta' class="resposta"></div>
+</body>
+
+</html>
